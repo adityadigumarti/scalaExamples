@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_32 (Sun Microsystems Inc.)
+
+Name: Eclipse.app/Contents/Info.plist
+SHA1-Digest: 6/1Nfbh0yrzit4lljegUu3wBFtM=
+
+Name: Eclipse.app/Contents/MacOS/eclipse.ini
+SHA1-Digest: oNX7ZmlYIZit4dq3BbiilLKKSGQ=
+
+Name: Eclipse.app/Contents/Resources/icon.icns
+SHA1-Digest: 9aerOIP905jvfzA1V8Nzxeifsi8=
+
+Name: Eclipse.app/Contents/MacOS/eclipse
+SHA1-Digest: tx/hsWxH3I3rRf7N9iHF26A0e+s=
+

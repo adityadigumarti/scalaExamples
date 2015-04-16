@@ -1,0 +1,25 @@
+package week1
+
+object Book {
+  case class Book (title : String, authors : List[String])
+	
+	val books : Set[Book] = Set (
+			Book(title = "Title 1", authors = List("a1", "a2")),
+			Book(title = "Title 2", authors = List("b1", "b2")),
+			Book(title = "Title 3", authors = List("ac1", "c2")),
+			Book(title = "Title 4", authors = List("d1", "d2")),
+			Book(title = "Title 5", authors = List("e1", "e2")),
+			Book(title = "Title 6", authors = List("f1", "f2")),
+			Book(title = "Title 7", authors = List("g1", "ag2")),
+			Book(title = "Title 8", authors = List("h1", "h2")),
+			Book(title = "Title 9", authors = List("i1", "i2")),
+			Book(title = "Title 10", authors = List("j1", "j2", "j3","aj2"))
+	)                                         //> books  : List[week1.Book.Book] = List(Book(Title 1,List(a1, a2)), Book(Title
+                                                  //|  2,List(b1, b2)), Book(Title 3,List(ac1, c2)), Book(Title 4,List(d1, d2)), B
+                                                  //| ook(Title 5,List(e1, e2)), Book(Title 6,List(f1, f2)), Book(Title 7,List(g1,
+                                                  //|  ag2)), Book(Title 8,List(h1, h2)), Book(Title 9,List(i1, i2)), Book(Title 1
+                                                  //| 0,List(j1, j2, j3, aj2)))
+	
+	for(b <- books; a <- b.authors if(a startsWith "a")) yield b.title
+                                                  //> res0: List[String] = List(Title 1, Title 1, Title 3, Title 7, Title 10)
+}

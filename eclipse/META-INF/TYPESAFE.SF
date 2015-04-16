@@ -1,0 +1,17 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: o41ZGhH1OUvhAu0tGsPVwVPugpM=
+Created-By: 1.6.0_32 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 8bb8OKHbQHGVpdadUQohawfga0A=
+
+Name: Eclipse.app/Contents/Info.plist
+SHA1-Digest: iucaSSMvmyEcgXWH/BuRzkp2j0M=
+
+Name: Eclipse.app/Contents/MacOS/eclipse.ini
+SHA1-Digest: CdQKNnaRxrC9phgGQ2fsI2UX0JA=
+
+Name: Eclipse.app/Contents/Resources/icon.icns
+SHA1-Digest: rZbZxxEvOH8h5mxCmHGIYpM7lds=
+
+Name: Eclipse.app/Contents/MacOS/eclipse
+SHA1-Digest: TdtVTVsiHP2j2OZsna6YqdGiw6s=
+
